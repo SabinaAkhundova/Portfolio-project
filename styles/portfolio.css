@@ -15,3 +15,7 @@ h3 {
 .navbar-img {
   width: 50px;
 }
+.hero {
+  background: #f9f7fe;
+  text-align: center;
+}
