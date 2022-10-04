@@ -1,21 +1,43 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f9f7fe;
+  --font-family: "Poppins", sans-serif;
+  --heading-font-family: "Playfair Display";
+}
+body {
+  font-family: var(--font-family);
+}
 h1 {
-  font-family: "Splash, cursive";
+  font-size: 96px;
 }
-h2 {
-  font-size: 48px;
-  padding-top: 70px;
-}
-h1,
+
 h2,
 h3 {
+  font-family: var(--heading-font-family);
   text-align: center;
-  margin: 0;
+  font-weight: bold;
+  font-size: 38px;
 }
 
 .navbar-img {
   width: 50px;
 }
 .hero {
-  background: #f9f7fe;
+  background: var(--secondary-color);
   text-align: center;
+  padding: 160px 20px;
+}
+.hero h3 {
+  line-height: 2;
+}
+.btn {
+  background: var(--primary-color);
+  border-radius: 5px;
+  color: beige;
+  margin-top: 40px;
+}
+
+.btn:hover {
+  background: #232148;
+  color: bisque;
 }
