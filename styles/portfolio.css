@@ -73,3 +73,15 @@ img {
   border-radius: 5px;
   box-shadow: var(--box-shadow);
 }
+@media (max-width: 900px) {
+  .hero {
+    padding: 60px 20px;
+    line-height: 1;
+  }
+  h1,
+  h2,
+  h3 {
+    font-size: 25px;
+    padding: 0px;
+  }
+}
