@@ -1,6 +1,7 @@
 :root {
   --primary-color: #6c63ff;
-  --secondary-color: #f9f7fe;
+  --secondary-color: #f5f2fe;
+  --button-text-color: whitesmoke;
   --font-family: "Poppins", sans-serif;
   --heading-font-family: "Playfair Display";
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
@@ -34,14 +35,10 @@ h3 {
 .btn {
   background: var(--primary-color);
   border-radius: 5px;
-  color: beige;
+  color: var(--button-text-color);
   margin-top: 40px;
 }
 
-.btn:hover {
-  background: #232148;
-  color: bisque;
-}
 .primary-link {
   border-radius: 4px;
   margin: 20px;
@@ -49,7 +46,7 @@ h3 {
   box-shadow: var(--box-shadow);
   text-decoration: none;
   justify-content: center;
-  color: whitesmoke;
+  color: var(--button-text-color);
   padding: 20px 15px;
 }
 p {
