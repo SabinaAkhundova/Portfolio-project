@@ -43,15 +43,18 @@ h3 {
   color: var(--button-text-color);
   padding: 20px 15px;
 }
-.btn-primary {
+.btn-branding-outline {
   background: var(--primary-color);
+  color: var(--secondary-color);
   box-shadow: var(--box-shadow);
-  border-radius: 5px;
+  border-radius: 4px;
   color: var(--button-text-color);
-  margin-top: 40px;
+  text-decoration: none;
+  border-color: var(--primary-color);
+  padding: 20px 15px;
 }
-a {
-  background: var(--secondary-color);
+.btn-branding-outline:hover {
+  background-color: var(--secondary-color);
   color: var(--primary-color);
 }
 p {
@@ -64,4 +67,8 @@ p {
 .paragraph {
   background-color: none;
   justify-self: left;
+}
+img {
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
 }
