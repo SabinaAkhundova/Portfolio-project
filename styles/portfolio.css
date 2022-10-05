@@ -32,12 +32,6 @@ h3 {
 .hero h3 {
   line-height: 2;
 }
-.btn {
-  background: var(--primary-color);
-  border-radius: 5px;
-  color: var(--button-text-color);
-  margin-top: 40px;
-}
 
 .primary-link {
   border-radius: 4px;
@@ -48,6 +42,17 @@ h3 {
   justify-content: center;
   color: var(--button-text-color);
   padding: 20px 15px;
+}
+.btn-primary {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  border-radius: 5px;
+  color: var(--button-text-color);
+  margin-top: 40px;
+}
+a {
+  background: var(--secondary-color);
+  color: var(--primary-color);
 }
 p {
   padding: 20px;
