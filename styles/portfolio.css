@@ -41,3 +41,13 @@ h3 {
   background: #232148;
   color: bisque;
 }
+.primary-link {
+  border-radius: 4px;
+  margin: 20px;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  text-decoration: none;
+  justify-content: center;
+  color: whitesmoke;
+  padding: 20px 15px;
+}
