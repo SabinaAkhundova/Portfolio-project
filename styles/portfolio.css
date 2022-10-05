@@ -34,13 +34,10 @@ h3 {
   line-height: 2;
 }
 
-.primary-link {
+.btn-branding {
   border-radius: 4px;
-  margin: 20px;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
-  text-decoration: none;
-  justify-content: center;
   color: var(--button-text-color);
   padding: 20px 15px;
 }
@@ -67,7 +64,6 @@ p {
 }
 .paragraph {
   background-color: none;
-  justify-self: left;
 }
 img {
   border-radius: 5px;
@@ -79,9 +75,11 @@ img {
     line-height: 1;
   }
   h1,
-  h2,
   h3 {
     font-size: 25px;
-    padding: 0px;
+    padding: 0;
+  }
+  .btn-branding-outline {
+    padding: 10px 10px;
   }
 }
