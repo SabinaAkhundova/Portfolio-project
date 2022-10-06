@@ -36,9 +36,8 @@ h3 {
 
 .btn-branding {
   border-radius: 4px;
-  background: var(--primary-color);
   box-shadow: var(--box-shadow);
-  color: var(--button-text-color);
+  color: var(--primary-color);
   padding: 20px 15px;
 }
 .btn-branding-outline {
@@ -81,5 +80,10 @@ img {
   }
   .btn-branding-outline {
     padding: 10px 10px;
+  }
+  .btn-branding {
+    display: block;
+    text-align: center;
+    margin: 0 15px;
   }
 }
