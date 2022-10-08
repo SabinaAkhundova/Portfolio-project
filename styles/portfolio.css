@@ -82,6 +82,9 @@ img {
   border-radius: 5px;
   box-shadow: var(--box-shadow);
 }
+.about-header {
+  padding-top: 100px;
+}
 a {
   color: black;
   text-decoration: none;
@@ -98,6 +101,13 @@ a:hover {
   h3 {
     font-size: 25px;
     padding: 0;
+  }
+  h5 {
+    font-size: smaller;
+    line-height: 1.5;
+  }
+  .about-header {
+    padding-top: 150px;
   }
   .btn-branding-outline {
     padding: 10px 10px;
