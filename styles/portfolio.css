@@ -9,8 +9,12 @@
 body {
   font-family: var(--font-family);
 }
-.row {
+
+.row mb-3 {
   padding-top: 100px;
+}
+.col {
+  padding-left: 75px;
 }
 h1 {
   font-size: 96px;
@@ -72,14 +76,17 @@ h5 {
   color: var(--primary-color);
 }
 p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.paragraph {
+  background-color: none;
   padding: 20px;
   border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
-}
-.paragraph {
-  background-color: none;
 }
 img {
   border-radius: 5px;
