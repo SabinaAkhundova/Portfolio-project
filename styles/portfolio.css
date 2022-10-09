@@ -111,6 +111,9 @@ img {
 footer {
   margin: 40px 0;
 }
+.contact-box {
+  background-color: var(--secondary-color);
+}
 .email-link {
   color: var(--primary-color);
   text-decoration: none;
@@ -137,7 +140,11 @@ footer {
     padding: 60px 20px;
     line-height: 1;
   }
-  h1,
+  .main-header {
+    font-size: 38px;
+    padding-top: 40px;
+  }
+
   h3 {
     font-size: 25px;
     padding: 0;
