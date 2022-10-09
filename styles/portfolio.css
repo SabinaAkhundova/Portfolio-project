@@ -101,12 +101,16 @@ img {
 .about-header {
   padding-top: 100px;
 }
-a {
+.courses-link {
   color: black;
   text-decoration: none;
 }
-a:hover {
+.courses-link:hover {
   color: var(--primary-color);
+}
+.email-link {
+  text-decoration: none;
+  text-align: center;
 }
 @media (max-width: 900px) {
   .hero {
