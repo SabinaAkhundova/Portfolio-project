@@ -53,14 +53,29 @@ h5 {
   width: 50px;
 }
 .hero {
-  background: var(--secondary-color);
-  text-align: center;
-  padding: 160px 20px;
+  background-image: url(/img/road.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding: 80px 20px;
+}
+.card {
+  top: 50%;
+  box-shadow: 0 0 5px 0;
+  background: inherit;
+  backdrop-filter: blur(20px);
+  margin: 100px;
 }
 .hero h3 {
   line-height: 2;
 }
-
+.header-button {
+  background: #ebd9c0;
+  color: var(--primary-color);
+  padding: 5px 5px;
+  border-radius: 10px;
+  text-decoration: none;
+}
 .btn-branding {
   border-radius: 10px;
   box-shadow: var(--box-shadow);
@@ -155,7 +170,7 @@ footer {
     font-size: 25px;
     padding: 0;
   }
-  
+
   h5 {
     font-size: smaller;
     line-height: 1.5;
