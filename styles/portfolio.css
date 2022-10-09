@@ -46,7 +46,7 @@ h5 {
 }
 
 .about-header {
-  padding: 30px;
+  padding: 100px;
 }
 
 .navbar-img {
@@ -98,20 +98,24 @@ img {
   border-radius: 5px;
   box-shadow: var(--box-shadow);
 }
-.about-header {
-  padding-top: 100px;
-}
+
 .courses-link {
   color: black;
   text-decoration: none;
 }
-.courses-link:hover {
+.courses-link:hover,
+.email-link:hover {
   color: var(--primary-color);
 }
 .email-link {
+  color: black;
+  opacity: 0.7;
   text-decoration: none;
+}
+.social-links {
   text-align: center;
 }
+
 @media (max-width: 900px) {
   .hero {
     padding: 60px 20px;
