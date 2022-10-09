@@ -155,6 +155,7 @@ footer {
     font-size: 25px;
     padding: 0;
   }
+  
   h5 {
     font-size: smaller;
     line-height: 1.5;
@@ -168,6 +169,6 @@ footer {
   .btn-branding {
     display: block;
     text-align: center;
-    margin: 0 15px;
+    margin: 0 10px;
   }
 }
