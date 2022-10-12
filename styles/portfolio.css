@@ -35,7 +35,7 @@ h1 {
 }
 .greeting-header,
 .main-header {
-   color: black;
+  color: black;
   opacity: 0.6;
 }
 h2,
@@ -57,7 +57,9 @@ h5 {
   text-align: center;
   line-height: 45px;
 }
-
+.about-text {
+  line-height: 5rem;
+}
 .about-header {
   padding: 100px;
 }
@@ -70,7 +72,7 @@ h5 {
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
- padding: 50px;
+  padding: 50px;
 }
 
 .card {
@@ -86,14 +88,14 @@ h5 {
 
 .btn a {
   text-decoration: none;
-  color:#000000;
+  color: #000000;
   padding: 5px 5px;
   border-radius: 10px;
   text-decoration: none;
   text-align: center;
 }
-.btn a:hover{
-  color:var(--primary-color);
+.btn a:hover {
+  color: var(--primary-color);
 }
 .btn-branding {
   border-radius: 10px;
