@@ -1,7 +1,7 @@
 :root {
   --primary-color: #908dc1;
   --secondary-color: #f5f2fe;
-  --header-text-color: whitesmoke;
+  --header-text-color: #090804;
   --font-family: "Poppins", sans-serif;
   --heading-font-family: "Playfair Display";
   --box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
@@ -26,17 +26,14 @@ h1 {
   opacity: 0.7;
 }
 
-.location-header {
-  color: black;
-  opacity: 0.6;
-}
 .main-header {
   padding: 10px;
 }
 .greeting-header,
-.main-header {
-  color: black;
-  opacity: 0.6;
+.main-header,
+.location-header {
+  color: var(--header-text-color);
+  opacity: 0.7;
 }
 h2,
 h3 {
@@ -88,9 +85,7 @@ h5 {
 
 .btn a {
   text-decoration: none;
-  color: #000000;
-  padding: 5px 5px;
-  border-radius: 10px;
+  color: var(--secondary-color);
   text-decoration: none;
   text-align: center;
 }
