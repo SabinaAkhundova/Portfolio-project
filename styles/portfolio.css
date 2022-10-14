@@ -173,14 +173,14 @@ footer {
   opacity: 0.7;
   background: var(--primary-color);
 }
-@media (max-width: 900px) {
+@media (max-width: 1300px) {
   .hero {
     padding-bottom: 0px;
     line-height: 1;
     background: none;
   }
   .card {
-background-color: var(--secondary-color);
+    background-color: var(--secondary-color);
     margin: 50px 20px;
   }
   .greeting-header {
@@ -190,8 +190,8 @@ background-color: var(--secondary-color);
     font-size: 38px;
     padding-top: 20px;
   }
-  .header-button a{
-    color: var(--header-text-colorcolor);
+  .header-button a {
+    color: var(--header-text-color);
   }
 
   h3 {
@@ -213,5 +213,22 @@ background-color: var(--secondary-color);
     display: block;
     text-align: center;
     margin: 0 10px;
+  }
+}
+@media (max-height: 670px) {
+  .greeting-header {
+    font-size: 15px;
+    padding: 0px;
+  }
+  .main-header {
+    font-size: 20px;
+  }
+  .location-header {
+    font-size: medium;
+  }
+  .header-button a {
+    font-size: small;
+
+    color: var(--header-text-color);
   }
 }
