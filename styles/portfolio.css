@@ -152,6 +152,13 @@ footer {
 .contact-box {
   background-color: var(--secondary-color);
 }
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+a:hover {
+  color: var(--header-text-color);
+}
 .email-link {
   color: var(--primary-color);
   text-decoration: none;
@@ -222,7 +229,6 @@ footer {
   }
   .main-header {
     font-size: 20px;
-    
   }
   .location-header {
     font-size: medium;
