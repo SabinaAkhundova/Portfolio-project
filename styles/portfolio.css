@@ -200,6 +200,12 @@ a:hover {
   .header-button a {
     color: var(--header-text-color);
   }
+  h2 {
+    font-size: medium;
+  }
+  .booklook {
+    padding-top: 70px;
+  }
 
   h3 {
     font-size: 25px;
@@ -211,7 +217,12 @@ a:hover {
     line-height: 1.5;
   }
   .about-header {
-    padding-top: 150px;
+    padding-top: 100px;
+   
+  }
+  .about-text{
+    line-height: normal;
+    padding: 0px;
   }
   .btn-branding-outline {
     padding: 10px 10px;
@@ -220,6 +231,16 @@ a:hover {
     display: block;
     text-align: center;
     margin: 0 10px;
+  }
+  .row {
+    padding-top: 20px;
+  }
+  .col {
+    padding-left: 0px;
+  }
+  .paragraph {
+    font-size: small;
+    padding: 5px;
   }
 }
 @media (max-height: 655px) {
