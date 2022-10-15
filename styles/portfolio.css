@@ -180,7 +180,7 @@ a:hover {
   opacity: 0.7;
   background: var(--primary-color);
 }
-@media (max-width: 930px) {
+@media (max-width:930px) {
   .hero {
     padding-bottom: 0px;
     line-height: 1;
